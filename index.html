@@ -1,0 +1,27 @@
+<DOCTYPE !html>
+<html>
+	<head>
+		<script type="text/javascript" src="main.js"></script>
+		<link href="stylesheet.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<title>Simple Quest Generator</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="questgen">
+				<button onclick="RollGeneral()">General Quest</button>
+				<button onclick="RollCity()">City Quest</button>
+				<button onclick="RollAll()">RNG Quest</button>
+				<div id="questbox" >
+					<p id="objective"></p>
+				</div>
+			</div>
+			<div id="namegen">
+				<button onclick="RollName()">Roll Name</button>
+				<div id="namebox">
+					<p id="name"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

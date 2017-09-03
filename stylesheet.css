@@ -1,0 +1,42 @@
+body {
+	background:#222;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:20px;
+}
+button {
+	background:#222;
+	padding:5px;
+	border-radius:2px;
+	border-width:2px;
+	border-color:white;
+	color:white;
+	border-style:solid;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+}
+#wrapper {
+	width:400px;
+	margin:50 auto 0 auto;
+	text-align:center;
+	height:500px;
+}
+#questbox {
+	width:300px;
+	height:150px;
+	background:white;
+	color:#222;
+	padding: 5 20 10 20;
+	margin: 10 auto 0 auto;
+}
+#namegen {
+	margin:20 auto 0 auto;
+}
+#namebox {
+	width:300px;
+	height:50px;
+	background:white;
+	color:#222;
+	padding: 1 20 10 20;
+	margin: 10 auto 0 auto;
+}
